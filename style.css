@@ -1,0 +1,58 @@
+*{
+    margin:0px;
+    padding: 0px;
+}
+
+h1{
+    font-size: 50px;
+    background-color: pink;
+    text-align: center;
+
+    margin-top:20px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:70px;
+    flex-wrap: wrap;
+   
+}
+img{
+    margin:16px;
+    transition: all;
+    transition-duration: 1.4s;
+    transition-timing-function: ease-in-out;
+
+}
+ .first{
+    height:300px;
+    width:230px;
+
+}
+
+.second{
+    width:230px;
+    height: 300px;
+}
+
+.third{
+    width:230px;
+    height: 300px;
+}
+
+.fourth{
+    width:230px;
+    height:300px;
+}
+
+.fifth{
+    width:230px;
+    height: 300px;
+}
+
+img:hover{
+    transform: scale(1.2);
+}
+
